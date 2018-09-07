@@ -15,15 +15,6 @@
 		D62D7ACB21422A1E002262E2 /* bridgeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D7ACA21422A1E002262E2 /* bridgeTestTests.swift */; };
 		D62D7AD621422A1E002262E2 /* bridgeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AD521422A1E002262E2 /* bridgeTestUITests.swift */; };
 		D62D7B0521422AB6002262E2 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AE821422AB6002262E2 /* WebViewJavascriptBridgeBase.m */; };
-		D62D7B0621422AB6002262E2 /* OliveappCheckPackageResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AEC21422AB6002262E2 /* OliveappCheckPackageResult.m */; };
-		D62D7B0721422AB6002262E2 /* staging.public.der in Resources */ = {isa = PBXBuildFile; fileRef = D62D7AED21422AB6002262E2 /* staging.public.der */; };
-		D62D7B0821422AB6002262E2 /* OliveappCheckPackageClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF021422AB6002262E2 /* OliveappCheckPackageClient.m */; };
-		D62D7B0921422AB6002262E2 /* ShareData.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF221422AB6002262E2 /* ShareData.m */; };
-		D62D7B0A21422AB6002262E2 /* OliveappEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF521422AB6002262E2 /* OliveappEncryptionHelper.m */; };
-		D62D7B0B21422AB6002262E2 /* OliveappAuthorityUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF621422AB6002262E2 /* OliveappAuthorityUtility.m */; };
-		D62D7B0C21422AB6002262E2 /* OliveappHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF721422AB6002262E2 /* OliveappHttpHelper.m */; };
-		D62D7B0D21422AB6002262E2 /* OliveappThresholdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF921422AB6002262E2 /* OliveappThresholdHelper.m */; };
-		D62D7B0E21422AB6002262E2 /* OliveappSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AFA21422AB6002262E2 /* OliveappSignatureGenerator.m */; };
 		D62D7B0F21422AB6002262E2 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AFE21422AB6002262E2 /* WKWebViewJavascriptBridge.m */; };
 		D62D7B1021422AB6002262E2 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AFF21422AB6002262E2 /* WebViewJavascriptBridge.m */; };
 		D62D7B1121422AB6002262E2 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7B0221422AB6002262E2 /* WebViewJavascriptBridge_JS.m */; };
@@ -62,23 +53,6 @@
 		D62D7AD721422A1E002262E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62D7AE321422A47002262E2 /* bridgeTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridgeTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		D62D7AE821422AB6002262E2 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		D62D7AEB21422AB6002262E2 /* OliveappCheckPackageResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappCheckPackageResult.h; sourceTree = "<group>"; };
-		D62D7AEC21422AB6002262E2 /* OliveappCheckPackageResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappCheckPackageResult.m; sourceTree = "<group>"; };
-		D62D7AED21422AB6002262E2 /* staging.public.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = staging.public.der; sourceTree = "<group>"; };
-		D62D7AEF21422AB6002262E2 /* OliveappCheckPackageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappCheckPackageClient.h; sourceTree = "<group>"; };
-		D62D7AF021422AB6002262E2 /* OliveappCheckPackageClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappCheckPackageClient.m; sourceTree = "<group>"; };
-		D62D7AF221422AB6002262E2 /* ShareData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareData.m; sourceTree = "<group>"; };
-		D62D7AF321422AB6002262E2 /* OliveappSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappSignatureGenerator.h; sourceTree = "<group>"; };
-		D62D7AF421422AB6002262E2 /* OliveappThresholdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappThresholdHelper.h; sourceTree = "<group>"; };
-		D62D7AF521422AB6002262E2 /* OliveappEncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappEncryptionHelper.m; sourceTree = "<group>"; };
-		D62D7AF621422AB6002262E2 /* OliveappAuthorityUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappAuthorityUtility.m; sourceTree = "<group>"; };
-		D62D7AF721422AB6002262E2 /* OliveappHttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappHttpHelper.m; sourceTree = "<group>"; };
-		D62D7AF821422AB6002262E2 /* ShareData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareData.h; sourceTree = "<group>"; };
-		D62D7AF921422AB6002262E2 /* OliveappThresholdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappThresholdHelper.m; sourceTree = "<group>"; };
-		D62D7AFA21422AB6002262E2 /* OliveappSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappSignatureGenerator.m; sourceTree = "<group>"; };
-		D62D7AFB21422AB6002262E2 /* OliveappEncryptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappEncryptionHelper.h; sourceTree = "<group>"; };
-		D62D7AFC21422AB6002262E2 /* OliveappAuthorityUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappAuthorityUtility.h; sourceTree = "<group>"; };
-		D62D7AFD21422AB6002262E2 /* OliveappHttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappHttpHelper.h; sourceTree = "<group>"; };
 		D62D7AFE21422AB6002262E2 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		D62D7AFF21422AB6002262E2 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		D62D7B0021422AB6002262E2 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
@@ -169,7 +143,6 @@
 		D62D7AE721422AB6002262E2 /* WebViewJavascriptBridge */ = {
 			isa = PBXGroup;
 			children = (
-				D62D7AE921422AB6002262E2 /* SaasClient */,
 				D62D7AE821422AB6002262E2 /* WebViewJavascriptBridgeBase.m */,
 				D62D7AFE21422AB6002262E2 /* WKWebViewJavascriptBridge.m */,
 				D62D7AFF21422AB6002262E2 /* WebViewJavascriptBridge.m */,
@@ -180,54 +153,6 @@
 				D62D7B0421422AB6002262E2 /* WKWebViewJavascriptBridge.h */,
 			);
 			path = WebViewJavascriptBridge;
-			sourceTree = "<group>";
-		};
-		D62D7AE921422AB6002262E2 /* SaasClient */ = {
-			isa = PBXGroup;
-			children = (
-				D62D7AEA21422AB6002262E2 /* DataType */,
-				D62D7AEE21422AB6002262E2 /* Client */,
-				D62D7AF121422AB6002262E2 /* Utility */,
-			);
-			path = SaasClient;
-			sourceTree = "<group>";
-		};
-		D62D7AEA21422AB6002262E2 /* DataType */ = {
-			isa = PBXGroup;
-			children = (
-				D62D7AEB21422AB6002262E2 /* OliveappCheckPackageResult.h */,
-				D62D7AEC21422AB6002262E2 /* OliveappCheckPackageResult.m */,
-				D62D7AED21422AB6002262E2 /* staging.public.der */,
-			);
-			path = DataType;
-			sourceTree = "<group>";
-		};
-		D62D7AEE21422AB6002262E2 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				D62D7AEF21422AB6002262E2 /* OliveappCheckPackageClient.h */,
-				D62D7AF021422AB6002262E2 /* OliveappCheckPackageClient.m */,
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
-		D62D7AF121422AB6002262E2 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				D62D7AF221422AB6002262E2 /* ShareData.m */,
-				D62D7AF321422AB6002262E2 /* OliveappSignatureGenerator.h */,
-				D62D7AF421422AB6002262E2 /* OliveappThresholdHelper.h */,
-				D62D7AF521422AB6002262E2 /* OliveappEncryptionHelper.m */,
-				D62D7AF621422AB6002262E2 /* OliveappAuthorityUtility.m */,
-				D62D7AF721422AB6002262E2 /* OliveappHttpHelper.m */,
-				D62D7AF821422AB6002262E2 /* ShareData.h */,
-				D62D7AF921422AB6002262E2 /* OliveappThresholdHelper.m */,
-				D62D7AFA21422AB6002262E2 /* OliveappSignatureGenerator.m */,
-				D62D7AFB21422AB6002262E2 /* OliveappEncryptionHelper.h */,
-				D62D7AFC21422AB6002262E2 /* OliveappAuthorityUtility.h */,
-				D62D7AFD21422AB6002262E2 /* OliveappHttpHelper.h */,
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62D7AC021422A1E002262E2 /* LaunchScreen.storyboard in Resources */,
-				D62D7B0721422AB6002262E2 /* staging.public.der in Resources */,
 				D62D7ABD21422A1E002262E2 /* Assets.xcassets in Resources */,
 				D62D7ABB21422A17002262E2 /* Main.storyboard in Resources */,
 			);
@@ -363,20 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62D7B0621422AB6002262E2 /* OliveappCheckPackageResult.m in Sources */,
-				D62D7B0A21422AB6002262E2 /* OliveappEncryptionHelper.m in Sources */,
-				D62D7B0B21422AB6002262E2 /* OliveappAuthorityUtility.m in Sources */,
-				D62D7B0D21422AB6002262E2 /* OliveappThresholdHelper.m in Sources */,
-				D62D7B0921422AB6002262E2 /* ShareData.m in Sources */,
 				D62D7B0F21422AB6002262E2 /* WKWebViewJavascriptBridge.m in Sources */,
 				D62D7AB821422A17002262E2 /* ViewController.swift in Sources */,
 				D62D7B0521422AB6002262E2 /* WebViewJavascriptBridgeBase.m in Sources */,
-				D62D7B0821422AB6002262E2 /* OliveappCheckPackageClient.m in Sources */,
 				D62D7B1021422AB6002262E2 /* WebViewJavascriptBridge.m in Sources */,
 				D62D7B1121422AB6002262E2 /* WebViewJavascriptBridge_JS.m in Sources */,
-				D62D7B0C21422AB6002262E2 /* OliveappHttpHelper.m in Sources */,
 				D62D7AB621422A17002262E2 /* AppDelegate.swift in Sources */,
-				D62D7B0E21422AB6002262E2 /* OliveappSignatureGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
