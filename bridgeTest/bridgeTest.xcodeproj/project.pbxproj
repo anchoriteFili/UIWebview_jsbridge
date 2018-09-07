@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62D7AB621422A17002262E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AB521422A17002262E2 /* AppDelegate.swift */; };
+		D62D7AB821422A17002262E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AB721422A17002262E2 /* ViewController.swift */; };
+		D62D7ABB21422A17002262E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62D7AB921422A17002262E2 /* Main.storyboard */; };
+		D62D7ABD21422A1E002262E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62D7ABC21422A1E002262E2 /* Assets.xcassets */; };
+		D62D7AC021422A1E002262E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62D7ABE21422A1E002262E2 /* LaunchScreen.storyboard */; };
+		D62D7ACB21422A1E002262E2 /* bridgeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D7ACA21422A1E002262E2 /* bridgeTestTests.swift */; };
+		D62D7AD621422A1E002262E2 /* bridgeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AD521422A1E002262E2 /* bridgeTestUITests.swift */; };
+		D62D7B0521422AB6002262E2 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AE821422AB6002262E2 /* WebViewJavascriptBridgeBase.m */; };
+		D62D7B0621422AB6002262E2 /* OliveappCheckPackageResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AEC21422AB6002262E2 /* OliveappCheckPackageResult.m */; };
+		D62D7B0721422AB6002262E2 /* staging.public.der in Resources */ = {isa = PBXBuildFile; fileRef = D62D7AED21422AB6002262E2 /* staging.public.der */; };
+		D62D7B0821422AB6002262E2 /* OliveappCheckPackageClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF021422AB6002262E2 /* OliveappCheckPackageClient.m */; };
+		D62D7B0921422AB6002262E2 /* ShareData.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF221422AB6002262E2 /* ShareData.m */; };
+		D62D7B0A21422AB6002262E2 /* OliveappEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF521422AB6002262E2 /* OliveappEncryptionHelper.m */; };
+		D62D7B0B21422AB6002262E2 /* OliveappAuthorityUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF621422AB6002262E2 /* OliveappAuthorityUtility.m */; };
+		D62D7B0C21422AB6002262E2 /* OliveappHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF721422AB6002262E2 /* OliveappHttpHelper.m */; };
+		D62D7B0D21422AB6002262E2 /* OliveappThresholdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AF921422AB6002262E2 /* OliveappThresholdHelper.m */; };
+		D62D7B0E21422AB6002262E2 /* OliveappSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AFA21422AB6002262E2 /* OliveappSignatureGenerator.m */; };
+		D62D7B0F21422AB6002262E2 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AFE21422AB6002262E2 /* WKWebViewJavascriptBridge.m */; };
+		D62D7B1021422AB6002262E2 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7AFF21422AB6002262E2 /* WebViewJavascriptBridge.m */; };
+		D62D7B1121422AB6002262E2 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7B0221422AB6002262E2 /* WebViewJavascriptBridge_JS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D62D7AC721422A1E002262E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62D7AAA21422A16002262E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62D7AB121422A17002262E2;
+			remoteInfo = bridgeTest;
+		};
+		D62D7AD221422A1E002262E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62D7AAA21422A16002262E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62D7AB121422A17002262E2;
+			remoteInfo = bridgeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62D7AB221422A17002262E2 /* bridgeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bridgeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62D7AB521422A17002262E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D62D7AB721422A17002262E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D62D7ABA21422A17002262E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D62D7ABC21422A1E002262E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D62D7ABF21422A1E002262E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D62D7AC121422A1E002262E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62D7AC621422A1E002262E2 /* bridgeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bridgeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62D7ACA21422A1E002262E2 /* bridgeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridgeTestTests.swift; sourceTree = "<group>"; };
+		D62D7ACC21422A1E002262E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62D7AD121422A1E002262E2 /* bridgeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bridgeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62D7AD521422A1E002262E2 /* bridgeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridgeTestUITests.swift; sourceTree = "<group>"; };
+		D62D7AD721422A1E002262E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62D7AE321422A47002262E2 /* bridgeTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridgeTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		D62D7AE821422AB6002262E2 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		D62D7AEB21422AB6002262E2 /* OliveappCheckPackageResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappCheckPackageResult.h; sourceTree = "<group>"; };
+		D62D7AEC21422AB6002262E2 /* OliveappCheckPackageResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappCheckPackageResult.m; sourceTree = "<group>"; };
+		D62D7AED21422AB6002262E2 /* staging.public.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = staging.public.der; sourceTree = "<group>"; };
+		D62D7AEF21422AB6002262E2 /* OliveappCheckPackageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappCheckPackageClient.h; sourceTree = "<group>"; };
+		D62D7AF021422AB6002262E2 /* OliveappCheckPackageClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappCheckPackageClient.m; sourceTree = "<group>"; };
+		D62D7AF221422AB6002262E2 /* ShareData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareData.m; sourceTree = "<group>"; };
+		D62D7AF321422AB6002262E2 /* OliveappSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappSignatureGenerator.h; sourceTree = "<group>"; };
+		D62D7AF421422AB6002262E2 /* OliveappThresholdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappThresholdHelper.h; sourceTree = "<group>"; };
+		D62D7AF521422AB6002262E2 /* OliveappEncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappEncryptionHelper.m; sourceTree = "<group>"; };
+		D62D7AF621422AB6002262E2 /* OliveappAuthorityUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappAuthorityUtility.m; sourceTree = "<group>"; };
+		D62D7AF721422AB6002262E2 /* OliveappHttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappHttpHelper.m; sourceTree = "<group>"; };
+		D62D7AF821422AB6002262E2 /* ShareData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareData.h; sourceTree = "<group>"; };
+		D62D7AF921422AB6002262E2 /* OliveappThresholdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappThresholdHelper.m; sourceTree = "<group>"; };
+		D62D7AFA21422AB6002262E2 /* OliveappSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OliveappSignatureGenerator.m; sourceTree = "<group>"; };
+		D62D7AFB21422AB6002262E2 /* OliveappEncryptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappEncryptionHelper.h; sourceTree = "<group>"; };
+		D62D7AFC21422AB6002262E2 /* OliveappAuthorityUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappAuthorityUtility.h; sourceTree = "<group>"; };
+		D62D7AFD21422AB6002262E2 /* OliveappHttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OliveappHttpHelper.h; sourceTree = "<group>"; };
+		D62D7AFE21422AB6002262E2 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		D62D7AFF21422AB6002262E2 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		D62D7B0021422AB6002262E2 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		D62D7B0121422AB6002262E2 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		D62D7B0221422AB6002262E2 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		D62D7B0321422AB6002262E2 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		D62D7B0421422AB6002262E2 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62D7AAF21422A17002262E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62D7AC321422A1E002262E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62D7ACE21422A1E002262E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62D7AA921422A16002262E2 = {
+			isa = PBXGroup;
+			children = (
+				D62D7AB421422A17002262E2 /* bridgeTest */,
+				D62D7AC921422A1E002262E2 /* bridgeTestTests */,
+				D62D7AD421422A1E002262E2 /* bridgeTestUITests */,
+				D62D7AB321422A17002262E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62D7AB321422A17002262E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AB221422A17002262E2 /* bridgeTest.app */,
+				D62D7AC621422A1E002262E2 /* bridgeTestTests.xctest */,
+				D62D7AD121422A1E002262E2 /* bridgeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62D7AB421422A17002262E2 /* bridgeTest */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AE721422AB6002262E2 /* WebViewJavascriptBridge */,
+				D62D7AB521422A17002262E2 /* AppDelegate.swift */,
+				D62D7AB721422A17002262E2 /* ViewController.swift */,
+				D62D7AB921422A17002262E2 /* Main.storyboard */,
+				D62D7ABC21422A1E002262E2 /* Assets.xcassets */,
+				D62D7ABE21422A1E002262E2 /* LaunchScreen.storyboard */,
+				D62D7AC121422A1E002262E2 /* Info.plist */,
+				D62D7AE321422A47002262E2 /* bridgeTest-Bridging-Header.h */,
+			);
+			path = bridgeTest;
+			sourceTree = "<group>";
+		};
+		D62D7AC921422A1E002262E2 /* bridgeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7ACA21422A1E002262E2 /* bridgeTestTests.swift */,
+				D62D7ACC21422A1E002262E2 /* Info.plist */,
+			);
+			path = bridgeTestTests;
+			sourceTree = "<group>";
+		};
+		D62D7AD421422A1E002262E2 /* bridgeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AD521422A1E002262E2 /* bridgeTestUITests.swift */,
+				D62D7AD721422A1E002262E2 /* Info.plist */,
+			);
+			path = bridgeTestUITests;
+			sourceTree = "<group>";
+		};
+		D62D7AE721422AB6002262E2 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AE921422AB6002262E2 /* SaasClient */,
+				D62D7AE821422AB6002262E2 /* WebViewJavascriptBridgeBase.m */,
+				D62D7AFE21422AB6002262E2 /* WKWebViewJavascriptBridge.m */,
+				D62D7AFF21422AB6002262E2 /* WebViewJavascriptBridge.m */,
+				D62D7B0021422AB6002262E2 /* WebViewJavascriptBridge_JS.h */,
+				D62D7B0121422AB6002262E2 /* WebViewJavascriptBridgeBase.h */,
+				D62D7B0221422AB6002262E2 /* WebViewJavascriptBridge_JS.m */,
+				D62D7B0321422AB6002262E2 /* WebViewJavascriptBridge.h */,
+				D62D7B0421422AB6002262E2 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		D62D7AE921422AB6002262E2 /* SaasClient */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AEA21422AB6002262E2 /* DataType */,
+				D62D7AEE21422AB6002262E2 /* Client */,
+				D62D7AF121422AB6002262E2 /* Utility */,
+			);
+			path = SaasClient;
+			sourceTree = "<group>";
+		};
+		D62D7AEA21422AB6002262E2 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AEB21422AB6002262E2 /* OliveappCheckPackageResult.h */,
+				D62D7AEC21422AB6002262E2 /* OliveappCheckPackageResult.m */,
+				D62D7AED21422AB6002262E2 /* staging.public.der */,
+			);
+			path = DataType;
+			sourceTree = "<group>";
+		};
+		D62D7AEE21422AB6002262E2 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AEF21422AB6002262E2 /* OliveappCheckPackageClient.h */,
+				D62D7AF021422AB6002262E2 /* OliveappCheckPackageClient.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		D62D7AF121422AB6002262E2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D62D7AF221422AB6002262E2 /* ShareData.m */,
+				D62D7AF321422AB6002262E2 /* OliveappSignatureGenerator.h */,
+				D62D7AF421422AB6002262E2 /* OliveappThresholdHelper.h */,
+				D62D7AF521422AB6002262E2 /* OliveappEncryptionHelper.m */,
+				D62D7AF621422AB6002262E2 /* OliveappAuthorityUtility.m */,
+				D62D7AF721422AB6002262E2 /* OliveappHttpHelper.m */,
+				D62D7AF821422AB6002262E2 /* ShareData.h */,
+				D62D7AF921422AB6002262E2 /* OliveappThresholdHelper.m */,
+				D62D7AFA21422AB6002262E2 /* OliveappSignatureGenerator.m */,
+				D62D7AFB21422AB6002262E2 /* OliveappEncryptionHelper.h */,
+				D62D7AFC21422AB6002262E2 /* OliveappAuthorityUtility.h */,
+				D62D7AFD21422AB6002262E2 /* OliveappHttpHelper.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62D7AB121422A17002262E2 /* bridgeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62D7ADA21422A1E002262E2 /* Build configuration list for PBXNativeTarget "bridgeTest" */;
+			buildPhases = (
+				D62D7AAE21422A17002262E2 /* Sources */,
+				D62D7AAF21422A17002262E2 /* Frameworks */,
+				D62D7AB021422A17002262E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bridgeTest;
+			productName = bridgeTest;
+			productReference = D62D7AB221422A17002262E2 /* bridgeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62D7AC521422A1E002262E2 /* bridgeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62D7ADD21422A1E002262E2 /* Build configuration list for PBXNativeTarget "bridgeTestTests" */;
+			buildPhases = (
+				D62D7AC221422A1E002262E2 /* Sources */,
+				D62D7AC321422A1E002262E2 /* Frameworks */,
+				D62D7AC421422A1E002262E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62D7AC821422A1E002262E2 /* PBXTargetDependency */,
+			);
+			name = bridgeTestTests;
+			productName = bridgeTestTests;
+			productReference = D62D7AC621422A1E002262E2 /* bridgeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62D7AD021422A1E002262E2 /* bridgeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62D7AE021422A1E002262E2 /* Build configuration list for PBXNativeTarget "bridgeTestUITests" */;
+			buildPhases = (
+				D62D7ACD21422A1E002262E2 /* Sources */,
+				D62D7ACE21422A1E002262E2 /* Frameworks */,
+				D62D7ACF21422A1E002262E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62D7AD321422A1E002262E2 /* PBXTargetDependency */,
+			);
+			name = bridgeTestUITests;
+			productName = bridgeTestUITests;
+			productReference = D62D7AD121422A1E002262E2 /* bridgeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62D7AAA21422A16002262E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "赵宏亚";
+				TargetAttributes = {
+					D62D7AB121422A17002262E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					D62D7AC521422A1E002262E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D62D7AB121422A17002262E2;
+					};
+					D62D7AD021422A1E002262E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D62D7AB121422A17002262E2;
+					};
+				};
+			};
+			buildConfigurationList = D62D7AAD21422A17002262E2 /* Build configuration list for PBXProject "bridgeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62D7AA921422A16002262E2;
+			productRefGroup = D62D7AB321422A17002262E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62D7AB121422A17002262E2 /* bridgeTest */,
+				D62D7AC521422A1E002262E2 /* bridgeTestTests */,
+				D62D7AD021422A1E002262E2 /* bridgeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62D7AB021422A17002262E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D7AC021422A1E002262E2 /* LaunchScreen.storyboard in Resources */,
+				D62D7B0721422AB6002262E2 /* staging.public.der in Resources */,
+				D62D7ABD21422A1E002262E2 /* Assets.xcassets in Resources */,
+				D62D7ABB21422A17002262E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62D7AC421422A1E002262E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62D7ACF21422A1E002262E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62D7AAE21422A17002262E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D7B0621422AB6002262E2 /* OliveappCheckPackageResult.m in Sources */,
+				D62D7B0A21422AB6002262E2 /* OliveappEncryptionHelper.m in Sources */,
+				D62D7B0B21422AB6002262E2 /* OliveappAuthorityUtility.m in Sources */,
+				D62D7B0D21422AB6002262E2 /* OliveappThresholdHelper.m in Sources */,
+				D62D7B0921422AB6002262E2 /* ShareData.m in Sources */,
+				D62D7B0F21422AB6002262E2 /* WKWebViewJavascriptBridge.m in Sources */,
+				D62D7AB821422A17002262E2 /* ViewController.swift in Sources */,
+				D62D7B0521422AB6002262E2 /* WebViewJavascriptBridgeBase.m in Sources */,
+				D62D7B0821422AB6002262E2 /* OliveappCheckPackageClient.m in Sources */,
+				D62D7B1021422AB6002262E2 /* WebViewJavascriptBridge.m in Sources */,
+				D62D7B1121422AB6002262E2 /* WebViewJavascriptBridge_JS.m in Sources */,
+				D62D7B0C21422AB6002262E2 /* OliveappHttpHelper.m in Sources */,
+				D62D7AB621422A17002262E2 /* AppDelegate.swift in Sources */,
+				D62D7B0E21422AB6002262E2 /* OliveappSignatureGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62D7AC221422A1E002262E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D7ACB21422A1E002262E2 /* bridgeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62D7ACD21422A1E002262E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D7AD621422A1E002262E2 /* bridgeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62D7AC821422A1E002262E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62D7AB121422A17002262E2 /* bridgeTest */;
+			targetProxy = D62D7AC721422A1E002262E2 /* PBXContainerItemProxy */;
+		};
+		D62D7AD321422A1E002262E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62D7AB121422A17002262E2 /* bridgeTest */;
+			targetProxy = D62D7AD221422A1E002262E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D62D7AB921422A17002262E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62D7ABA21422A17002262E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D62D7ABE21422A1E002262E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62D7ABF21422A1E002262E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D62D7AD821422A1E002262E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D62D7AD921422A1E002262E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62D7ADB21422A1E002262E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJR2ZF8DZN;
+				INFOPLIST_FILE = bridgeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.bridgeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bridgeTest/bridgeTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62D7ADC21422A1E002262E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJR2ZF8DZN;
+				INFOPLIST_FILE = bridgeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.bridgeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bridgeTest/bridgeTest-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62D7ADE21422A1E002262E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJR2ZF8DZN;
+				INFOPLIST_FILE = bridgeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.bridgeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bridgeTest.app/bridgeTest";
+			};
+			name = Debug;
+		};
+		D62D7ADF21422A1E002262E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJR2ZF8DZN;
+				INFOPLIST_FILE = bridgeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.bridgeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bridgeTest.app/bridgeTest";
+			};
+			name = Release;
+		};
+		D62D7AE121422A1E002262E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJR2ZF8DZN;
+				INFOPLIST_FILE = bridgeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.bridgeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bridgeTest;
+			};
+			name = Debug;
+		};
+		D62D7AE221422A1E002262E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJR2ZF8DZN;
+				INFOPLIST_FILE = bridgeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.bridgeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bridgeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62D7AAD21422A17002262E2 /* Build configuration list for PBXProject "bridgeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62D7AD821422A1E002262E2 /* Debug */,
+				D62D7AD921422A1E002262E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62D7ADA21422A1E002262E2 /* Build configuration list for PBXNativeTarget "bridgeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62D7ADB21422A1E002262E2 /* Debug */,
+				D62D7ADC21422A1E002262E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62D7ADD21422A1E002262E2 /* Build configuration list for PBXNativeTarget "bridgeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62D7ADE21422A1E002262E2 /* Debug */,
+				D62D7ADF21422A1E002262E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62D7AE021422A1E002262E2 /* Build configuration list for PBXNativeTarget "bridgeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62D7AE121422A1E002262E2 /* Debug */,
+				D62D7AE221422A1E002262E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62D7AAA21422A16002262E2 /* Project object */;
+}
