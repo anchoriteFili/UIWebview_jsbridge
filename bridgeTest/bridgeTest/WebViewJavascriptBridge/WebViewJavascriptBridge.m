@@ -44,7 +44,7 @@
         return (WebViewJavascriptBridge*) [WKWebViewJavascriptBridge bridgeForWebView:webView];
     }
 #endif
-    if ([webView isKindOfClass:[WVJB_WEBVIEW_TYPE class]]) {
+    if ([webView isKindOfClass:[UIWebView class]]) {
         WebViewJavascriptBridge* bridge = [[self alloc] init];
         [bridge _platformSpecificSetup:webView];
         return bridge;
@@ -158,6 +158,7 @@
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
+    
     if (webView != _webView) { return; }
     
     __strong WVJB_WEBVIEW_DELEGATE_TYPE* strongDelegate = _webViewDelegate;

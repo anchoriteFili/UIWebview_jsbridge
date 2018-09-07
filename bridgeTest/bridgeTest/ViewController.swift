@@ -11,7 +11,7 @@ import WebKit
 
 class ViewController: UIViewController, UIWebViewDelegate, UIScrollViewDelegate {
     
-//    var bridge: WebViewJavascriptBridge = WebViewJavascriptBridge.init()
+    var bridge: WebViewJavascriptBridge?
     var webview = UIWebView.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
     
 
@@ -20,15 +20,20 @@ class ViewController: UIViewController, UIWebViewDelegate, UIScrollViewDelegate 
         
         // 创建webview
         webview.scalesPageToFit = true
-        webview.delegate = self
         webview.clipsToBounds = false
+        webview.delegate = self
         webview.scrollView.showsVerticalScrollIndicator = false
         webview.translatesAutoresizingMaskIntoConstraints = false
         webview.scrollView.delegate = self
         self.view.addSubview(webview)
         
-        var request = URLRequest(url: URL(string: "https://www.baidu.com/")!)
+        let request = URLRequest(url: URL(string: "http://ddj.zetafin.cn")!)
         webview.loadRequest(request)
+        
+        
+//        let bridge = WebViewJavascriptBridge.init(forWebView: webview)
+        let bridge = WebViewJavascriptBridge.init(webview)
+        bridge?.setWebViewDelegate(self)
         
         
         // Do any additional setup after loading the view, typically from a nib.

@@ -16,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setupUA()
         return true
+    }
+    
+    // 设置userAgent
+    func setupUA() {
+        let webview = UIWebView()
+        var newUserAgent = webview.stringByEvaluatingJavaScript(from: "navigator.userAgent")
+        newUserAgent = newUserAgent?.appending("doudoujin ios")
+        let dictionary = Dictionary(dictionaryLiteral: ("UserAgent", newUserAgent))
+        UserDefaults.standard.register(defaults: dictionary)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
